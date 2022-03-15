@@ -12,12 +12,11 @@ let package = Package(
             targets: ["FINporterCLI"]),
     ],
     dependencies: [
-        .package(name: "FINporter", path: "../FINporter"),
-        .package(name: "FINporterAllocSmart", path: "../FINporterAllocSmart"),
-        .package(name: "FINporterFido", path: "../FINporterFido"),
-        .package(name: "FINporterChuck", path: "../FINporterChuck"),
-        .package(name: "FINporterTabular", path: "../FINporterTabular"),
-        //.package(url: "https://github.com/openalloc/FINporter.git", from: "1.1.0"),
+        .package(url: "https://github.com/openalloc/FINporter.git", from: "1.1.0"),
+        .package(url: "https://github.com/openalloc/FINporterAllocSmart.git", from: "0.9.0"),
+        .package(url: "https://github.com/openalloc/FINporterFido.git", from: "0.9.0"),
+        .package(url: "https://github.com/openalloc/FINporterChuck.git", from: "0.9.0"),
+        .package(url: "https://github.com/openalloc/FINporterTabular.git", from: "0.9.0"),
         .package(url: "https://github.com/apple/swift-argument-parser.git", from: "0.4.3"),
     ],
     targets: [
