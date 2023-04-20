@@ -39,7 +39,7 @@ extension Finporter {
                 Holding.self,
                 Security.self,
                 Strategy.self,
-                Tracker.self
+                Tracker.self,
             ]
         )
         // defaultsubcommand: format.self)

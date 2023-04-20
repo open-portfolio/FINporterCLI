@@ -23,13 +23,12 @@ import SwiftCSV
 
 import FINporter
 import FINporterAllocSmart
-import FINporterFido
 import FINporterChuck
+import FINporterFido
 import FINporterTabular
 
 struct Finporter: ParsableCommand {
-    
-    static let prospector: FINprospector = FINprospector([
+    static let prospector: FINprospector = .init([
         AllocSmart(),
         FidoHistory(),
         FidoPositions(),
@@ -40,7 +39,7 @@ struct Finporter: ParsableCommand {
         ChuckSales(),
         Tabular(),
     ])
-    
+
     static var configuration = CommandConfiguration(
         commandName: "finport",
         abstract: "A utility for transforming financial data.",

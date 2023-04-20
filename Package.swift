@@ -23,7 +23,8 @@ let package = Package(
     products: [
         .executable(
             name: "finport",
-            targets: ["FINporterCLI"]),
+            targets: ["FINporterCLI"]
+        ),
     ],
     dependencies: [
         .package(url: "https://github.com/openalloc/FINporter.git", from: "1.1.0"),
