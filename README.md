@@ -4,7 +4,7 @@ A command-line utility for detecting and transforming investing data.
 
 _FINporterCLI_ is part of the [OpenAlloc](https://github.com/openalloc) family of open source Swift software tools.
 
-Used by investing apps like [FlowAllocator](https://open-portfolio.github.io/allocator) and [FlowWorth](https://open-portfolio.github.io/worth).
+Used by investing apps like [Flow Allocator](https://open-portfolio.github.io/allocator) and [Flow Worth](https://open-portfolio.github.io/worth).
 
 ## Disclaimer
 
@@ -39,7 +39,7 @@ SUBCOMMANDS:
   See 'finport help <subcommand>' for detailed help.
 ```
 
-If your favorite product (e.g., _FlowAllocator_) hasn't yet incorporated the latest FINporter library supporting your service, you can still transform exports using `finport`. See examples above.
+If your favorite product (e.g., _Flow Allocator_) hasn't yet incorporated the latest FINporter library supporting your service, you can still transform exports using `finport`. See examples above.
 
 ## See Also
 
